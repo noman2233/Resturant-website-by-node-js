@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.index-main {
+    content: "";
+    background: linear-gradient(rgba(100, 100, 100, 0.5),#20645c),url(../img/index-main.jpg) no-repeat center center/cover;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 500;
+    /* z-index: -1; */
+    margin: auto;
+}
+.index-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-main h1{
+    color: #fff;
+    margin-bottom:15px ;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+.index-main p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.btn{
+    margin: 10px 0px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color:black;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+}
+
+.founder-text{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 45px auto;
+}
+.founder-text h1{
+    flex-basis: 40%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 7px 300px;
+    text-align: center;
+}
+.founder-text p{
+    font-family: 'Grape Nuts', cursive;
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.founder-text h2{
+    font-family: 'Lobster', cursive;
+    margin: 7px 0px;
+}
+
+hr{
+    color: #c9d7d6;
+}
+
+.main-dishes-heading h1{
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 60px;
+    margin: 20px auto;
+    
+}
+
+.main-dishes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dishes-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 26%;
+    box-shadow: 0 10px 20px 3px #c9d7d6;
+    margin: 10px 15px;
+    border-radius: 30px;
+}
+.dishes-row:hover{
+    background: linear-gradient(rgba(209, 200, 200, 0.5),#f0fbfa)
+}
+.dishes-row img{
+    padding-top: 7px;
+    width: 120px;
+    border-radius: 50%;
+}
+.dish-name h2{
+    margin: 7px 0px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  
+}
+.dish-info p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.cook-name h3{
+    margin: 7px 0px;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/* main-dishes row 2 */
+
+.dishes-row-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 26%;
+    box-shadow: 0 10px 20px 3px #c9d7d6;
+    margin: 30px 15px;
+    border-radius: 30px;
+}
+
+.dishes-row-2 img{
+    padding-top: 7px;
+    width: 120px;
+    border-radius: 50%;
+}
+.dishes-row-2:hover{
+    background: linear-gradient(rgba(209, 200, 200, 0.5),#f0fbfa)
+}
+
+
+
+.inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.only-image{
+    
+    flex-basis: 60%;
+    background: linear-gradient(rgba(209, 200, 200, 0.5),#f0fbfa);
+}
+.only-image img {
+    height: 348px;
+    width: 800px;
+   
+}
+
+
+.only-text{
+    flex-basis: 30%;
+    height: 348px;
+    background: linear-gradient(rgba(209, 200, 200, 0.5),#f0fbfa)
+}
+.only-text .h1 h2{
+    text-align: center;
+    margin: 10px 0px;
+}
+.only-text .text p{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+
+
+/* gallery */
+.main-gallery-heading{
+    margin-top: 80px;
+}
+.main-gallery-heading h2{
+    
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+    margin-bottom: -10px;
+    
+}
+
+.main-gallery-heading h1{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 40px;   
+}
+
+.gallery{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.gallery img{
+    width: 250px;
+    margin: 10px 10px;
+}
+.gallery-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gallery-1 img{
+    width: 250px;
+    margin: 10px 10px;
+}
+.gallery-1 img:hover{
+    transition: ease-out;
+}
+
+.box{
+    transition: 1s;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+
+/* testimonial */
+.testimonial-heading h1 {
+    text-align: center;
+    font-family: 'montesrate', sans-serif;
+    font-size: 40px;
+    margin: 10px auto;
+    color: #f0fbfa;
+
+}
+
+.testimonial {
+    content: "";
+    background:linear-gradient(rgba(0,0,0,0.5),#9abeba),url(../img/about-main.jpg) no-repeat center center/cover;
+    /* position: relative; */
+    top: 0;
+    width: 100%;
+    height: 500;
+    margin:40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.card{
+    background-color: #fff;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 3px #c9d7d6;
+}
+.card:hover{
+    background: linear-gradient(rgba(209, 200, 200, 0.5),#f0fbfa)
+
+}
+.card img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 50px;
+    border-radius: 70%;
+}
+.card p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.location-heading h1{
+    text-align: center;
+    font-family: 'Anek Gurmukhi', sans-serif;
+    font-size: 50px;
+    margin: 10px auto;
+    word-spacing:1ch;
+    font-weight:600;
+    
+}
+
+
+/* location */
+.location{
+    display: flex;
+    margin: 50px 50px;
+}
+.contact{
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.contact h1{
+    margin: 7px 0px;
+    margin-bottom: 20px;
+}
+.contact h3{
+    margin: 7px 0px;
+
+}
+.time{
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.time h1{
+    margin-bottom: 10px;
+}
+
+.time p{
+    margin: 8px 0px;
+}

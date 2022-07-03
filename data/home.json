@@ -1,0 +1,46 @@
+{
+    
+    "home":{
+        "main-image":"../static/img/index-main.jpg",
+        "main-tilte":"Welcome to Resturant Website",
+        "main-subtitle":"Food tastes better when you eat it with your family",
+        "founder-words":"A recipe has no soul, You as the cook must bring soul to the recipe",
+        "dish-1":{
+            "image":"../static/img/dish-1.webp",
+            "name":"Cheeseburger Omlete",
+            "content":"This ridiculously delicious omelet is appropriate served at any hour of the day and is an excellent use for leftover burger fixin's, if you have them.",
+            "cook":"BY: Jason William"
+        },     
+        "dish-2":{
+            "image":"../static/img/dish-2.webp",
+            "name":"Cabernet-Braised Beef",
+            "content":"Cooking short ribs in red wine delivers an unbelievably rich sauce perfect for spooning over noodles. Serve with chunk of bakery bread.",
+            "cook":"BY: Peter Wade"
+        },     
+        "dish-3":{
+            "image":"../static/img/dish-3.webp",
+            "name":"Asin Chicken Thigh",
+            "content":"Serve these saucy chicken thighs over cooked noodles with a side of steamed broccoli for a well-rounded meal. Finishing the chicken thighs in the broiler",
+            "cook":"BY: jakson Tait"
+        },     
+        "dish-4":{
+            "image":"../static/img/dish-4.webp",
+            "name":"Pasta Primavera",
+            "content":"It's hard to beat pasta primavera. But it's even harder to beat a 20-minute pasta primavera that only requires one skillet.",
+            "cook":"BY:Robin Bashinsky"
+        },     
+    
+        "dish-5":{
+            "image":"../static/img/dish-5.webp",
+            "name":"Penne Alla Vodka Pizza",
+            "content":"You are sure to love this irresistible pie that combines 2 favorites: vodka pasta and homemade pizza.",
+            "cook":"BY:Anderson blundel"
+        },
+        "image-1":"../static/img/a1.jpg",     
+        "image-2":"../static/img/a2.jpg",     
+        "image-3":"../static/img/a3.jpg",     
+        "image-4":"../static/img/a4.jpg",     
+        "image-5":"../static/img/a5.jpg",     
+        "image-7":"../static/img/a7.jpg"     
+    }
+}

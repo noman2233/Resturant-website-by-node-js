@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    
+ 
+   
+}
+.navbar img{
+    width: 60px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 20px;
+    font-weight: 800;
+}
+
+.navbar ul li a:hover{
+    color:#081871 ;
+}  
+
